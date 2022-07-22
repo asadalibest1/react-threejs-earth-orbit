@@ -8,8 +8,6 @@ import texture2 from '../assets/earthbump.jpg';
 import clouds from '../assets/earthCloud.png';
 
 
-
-
 const Earth = (props) => {
 
     const earth = useRef();
@@ -34,7 +32,7 @@ const Earth = (props) => {
 
             </mesh>
             <mesh ref={cloudsRotate} >
-                <sphereGeometry attach="geometry" args={[.52, 100, 100]} />
+                <sphereGeometry attach="geometry" args={[.51, 100, 100]} />
                 <meshPhongMaterial map={colorClouds} transparent={true} />
             </mesh>
 

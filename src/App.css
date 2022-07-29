@@ -115,7 +115,6 @@
   border-radius: 50px;
   background: #4582a2;
   margin-top: 55px;
-  margin-bottom: 55px;
   cursor: pointer;
   outline: none;
   border: 0;
@@ -140,6 +139,7 @@
 
   .btn-clean {
     margin-top: 40px;
+    margin-bottom: 55px;
     margin-left: auto;
     margin-right: auto;
   }
